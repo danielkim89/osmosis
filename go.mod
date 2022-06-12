@@ -2,6 +2,8 @@ module github.com/osmosis-labs/osmosis/v9
 
 go 1.18
 
+require github.com/patrickmn/go-cache v2.1.0+incompatible
+
 require (
 	github.com/CosmWasm/wasmd v0.24.0
 	github.com/cosmos/cosmos-sdk v0.45.4
